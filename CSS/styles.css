@@ -7,7 +7,7 @@ font-family: sans-serif;
 height: 100vh;
 }
 
-.Login-Box {
+.login-box {
     width: 320px;
     height: 420px;
     background: #000;
@@ -20,7 +20,7 @@ height: 100vh;
     padding: 70px 30px;
 }
 
-.Login-Box .Avatar {
+.login-box .Avatar {
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -29,26 +29,26 @@ height: 100vh;
     left: calc(39% - 50px);
 }
 
-.Login-Box h1 {
+.login-box h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
 }
 
-.Login-Box label {
+.login-box label {
     margin: 0;
     padding: 0;
     font-weight: bold;
     display: block;
 }
 
-.Login-Box input {
+.login-box input {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.Login-Box input [type="text"],.Login-Box input [type="password"]{
+.login-box input [type="text"],.login-box input [type="password"]{
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -58,12 +58,23 @@ height: 100vh;
     font-size: 16px;
 }
 
-.Login-Box input [type="submit"]{
+.login-box input [type="submit"] {
     border: none;
     outline: none;
     height: 40px;
-    background: red;
+    background: #000;
     color: #fff;
     font-size: 20px;
     border-radius: 2;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.login-box a:hover {
+    color: #fff;
 }
