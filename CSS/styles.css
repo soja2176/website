@@ -58,15 +58,16 @@ height: 100vh;
     font-size: 16px;
 }
 
-.login-box input [type="submit"] {
+.login-box .submit{
     border: none;
     outline: none;
     height: 40px;
-    background: #000;
+    background: #b80f22;
     color: #fff;
     font-size: 20px;
     border-radius: 2;
 }
+
 
 .login-box a {
     text-decoration: none;
