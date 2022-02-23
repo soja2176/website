@@ -51,6 +51,16 @@
       display: flex;
   }
 
-  .nav-mail ul li {
-      padding: 20px;
+  .nav-main ul a:hover {
+      border-bottom: solid #fff;
+  }
+
+  .nav-main ul li {
+      padding: 50px;
+      font-size: 25px;
+  }
+
+  .nav-main ul.nav-menu {
+      flex: 1;
+      margin-left: 20px;
   }
