@@ -15,7 +15,7 @@
   }
   
   a {
-    color: #fff;
+    color: goldenrod;
     text-decoration: none;
   }
 
@@ -65,18 +65,6 @@
       margin-left: 20px;
   }
 
-  .nav-menu-right li{
-    background-color: #cc1414; /* Red */
-    color: white;
-    padding: 10px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 8px;
-    height: 20px;
-  }
-
   /*SHOWCASE*/
 
   .showcase {
@@ -112,16 +100,32 @@
       opacity: .7;
   }
 
+  /*CARDS*/
 
   .Cards {
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(2, 1fr);
    gap: 25px;
+   margin-bottom: 50px;
+   margin-top: -25px;
+   margin-left: 10px;
+   margin-right: 10px;
   }
 
   .Cards img {
       margin-top: 100px;
       width: 100%;
-      height: 230px;
+      height: 460px;
   }
   
+  .Cards p{
+    font-family: 'Black Ops One', cursive;
+    font-size: 25px;
+    color: rgb(138, 189, 247);
+  }
+
+  .Cards h3{
+    font-family: 'Black Ops One', cursive;
+    font-size: 35px;  
+    color: goldenrod;
+  }
