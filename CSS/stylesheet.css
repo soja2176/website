@@ -129,3 +129,8 @@
     font-size: 35px;  
     color: goldenrod;
   }
+
+  .Cards a {
+      font-size: 25px;
+      font-family:  'Black Ops One', cursive;
+  }
