@@ -6,3 +6,5 @@ Mi website
 22/02/22: Comienzo de diseño de página principal y estilo global.
 
 23/02/22: Avance con demás secciones de la página.
+
+24/02/22: Se añade el primer juego a la sección "Juega".
