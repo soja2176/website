@@ -1,7 +1,7 @@
 let canvas = document.getElementById("snake"); //Crea elemento que correra juego
 let context = canvas.getContext("2d"); //....
 let box = 32;
-let snake = []; //Crea serpiente, tipo cuadrado.
+let snake = []; //Crea serpiente.
 snake[0] ={
     x: 8 * box,
     y: 8 * box
@@ -11,6 +11,8 @@ let food ={
     x: Math.floor(Math.random() * 15 + 1) * box,
     y: Math.floor(Math.random() * 15 + 1) * box
 }
+
+var score = 0;
 
 function crearBG(){
     context.fillStyle = "lightgreen";
@@ -28,6 +30,7 @@ function drawFood (){
     context.fillStyle = "red";
     context.fillRect(food.x, food.y, box, box);
 }
+
 
 //Cuando ocurre un evento, detecta y llama función
 document.addEventListener('keydown', update);
@@ -53,9 +56,11 @@ function iniciarJuego(){
         }
     }
 
+    
     crearBG();
     crearSerpiente();
     drawFood();
+    
 
     let snakeX = snake[0].x;
     let snakeY = snake[0].y;
@@ -66,7 +71,7 @@ function iniciarJuego(){
     if(direction == "down") snakeY += box;
 
     if(snakeX != food.x || snakeY != food.y){
-        snake.pop(); //pop devuelve ultimo elemento de la lista
+        snake.pop(); //pop elimina y devuelve ultimo elemento de la lista
     }else{
         food.x = Math.floor(Math.random() * 15 +1) * box;
         food.y = Math.floor(Math.random() * 15 +1) * box;
