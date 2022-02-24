@@ -114,6 +114,8 @@
 
   .Cards img {
       margin-top: 100px;
+      width: 90%;
+      height: 50%;
 
   }
   
@@ -127,4 +129,9 @@
     font-family: 'Black Ops One', cursive;
     font-size: 35px;  
     color: goldenrod;
+  }
+
+  .Cards a {
+      font-size: 25px;
+      font-family:  'Black Ops One', cursive;
   }
