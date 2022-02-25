@@ -8,3 +8,5 @@ Mi website
 23/02/22: Avance con demás secciones de la página.
 
 24/02/22: Se añade el primer juego a la sección "Juega".
+
+25/02/22: Se modifica estilo de "Cards". Se añade nueva sección "Referentes".
