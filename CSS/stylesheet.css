@@ -105,24 +105,24 @@
   .Cards {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 25px;
-   margin-bottom: 50px;
+   gap: 5px;
    margin-top: -25px;
-   margin-left: 10px;
+   margin-left: 45px;
    margin-right: 10px;
+ 
   }
 
   .Cards img {
       margin-top: 100px;
       width: 90%;
-      height: 50%;
-
+      height: 400px;
   }
   
   .Cards p{
     font-family: 'Black Ops One', cursive;
     font-size: 25px;
     color: rgb(138, 189, 247);
+    margin-bottom: -90px;
   }
 
   .Cards h3{
