@@ -10,3 +10,5 @@ Mi website
 24/02/22: Se añade el primer juego a la sección "Juega".
 
 25/02/22: Se modifica estilo de "Cards". Se añade nueva sección "Referentes".
+
+28/02/22: Se comienza a utilizar bootstrap en lugar de CSS puro.
