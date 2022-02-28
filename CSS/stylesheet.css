@@ -27,6 +27,12 @@
       margin: auto;
   }
 
+  /*Logo*/
+  .Logo {
+    width: 80px;
+    height: 60px;
+  }
+
   /*NAVIGATION*/
 
   .nav-main {
