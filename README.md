@@ -14,3 +14,5 @@ Mi website
 28/02/22: Se comienza a utilizar bootstrap en lugar de CSS puro.
 
 01/03/22: Se avanza con la implementación de bootstrap en demás secciones.
+
+07/03/22: Se mejora el diseño de "cards".
