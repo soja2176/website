@@ -152,6 +152,7 @@
  .card-text {
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
   }
   .card h3{
   margin-top: 10px;
